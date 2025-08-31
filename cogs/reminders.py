@@ -99,7 +99,7 @@ class ReminderSystem(commands.Cog):
             parsed = dateparser.parse(time_str, settings={'RELATIVE_BASE': current_time})
             if parsed:
                 return parsed
-        except:
+        except Exception:
             pass
         
         # Fallback to manual parsing

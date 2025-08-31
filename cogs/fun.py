@@ -12,12 +12,18 @@ class FunCommands(commands.Cog):
     @app_commands.command(name="hi", description="Greet the user")
     async def hi(self, interaction: discord.Interaction):
         """Reply with a greeting"""
-        await interaction.response.send_message(f"Hi {interaction.user.mention}!")
+        if interaction.user.id == 667330592114868225:
+            await interaction.response.send_message("Hi Master! 👑")
+        else:
+            await interaction.response.send_message(f"Hi {interaction.user.mention}!")
     
     @app_commands.command(name="bye", description="Say goodbye to the user")
     async def bye(self, interaction: discord.Interaction):
         """Reply with a goodbye message"""
-        await interaction.response.send_message(f"Goodbye {interaction.user.mention}!")
+        if interaction.user.id == 667330592114868225:
+            await interaction.response.send_message("Goodbye Master! 👑")
+        else:
+            await interaction.response.send_message(f"Goodbye {interaction.user.mention}!")
     
     @app_commands.command(name="about", description="Learn about the bot")
     async def about(self, interaction: discord.Interaction):
