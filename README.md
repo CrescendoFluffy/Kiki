@@ -391,34 +391,4 @@ discord-reminder-bot/
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
-
-## 🆘 Support
-
-If you need help:
-1. Check the troubleshooting section
-2. Review the console output for errors
-3. Verify your configuration
-4. Check your hosting platform status
-
-## 🚀 Production Ready
-
-This bot is production-ready and includes:
-- ✅ **Stable reminder system** with SQLite persistence
-- ✅ **Comprehensive error handling** and logging
-- ✅ **Background task scheduler** for reliable reminders
-- ✅ **User permission system** for security
-- ✅ **Multiple deployment options** (VPS, Docker, Systemd)
-- ✅ **Easy configuration** with environment variables
-
-## 🔮 Future Enhancements
-
-Potential features for future versions:
-- Recurring reminders
-- Timezone support
-- Reminder categories/tags
-- Bulk reminder operations
-- Integration with calendar services
-- Mobile app companion
-
----
+This project is open-source and available under the [MIT License](https://opensource.org/license/mit).
